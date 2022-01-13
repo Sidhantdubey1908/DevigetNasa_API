@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="17.116">
+<testcase classname="Test Nasa API features" name="Launch NASA API and get Mars photos" time="16.601">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given User launches the API "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=DEMO_KEY" and validates if API is launched.passed
+Then Retrieve the first 10 Mars photos made by Curiosity on 1000 Martian sol.failed
+
+StackTrace:
+java.lang.NullPointerException
+	at DevigetAPI_Automation.DevigetAPI_Automation.ValidateNASAAPI.validateAPIOutput(ValidateNASAAPI.java:62)
+	at stepDefinitions.StepDefinition.retrieve_the_first_10_mars_photos_made_by_something_on_1000_martian_sol(StepDefinition.java:34)
+	at ✽.Retrieve the first 10 Mars photos made by Curiosity on 1000 Martian sol(file:///C:/Users/91893/eclipse-workspace/DevigetAPI_Automation/src/test/java/features/NASA_API.feature:6)
+]]></failure>
+</testcase>
+</testsuite>
